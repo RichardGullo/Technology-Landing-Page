@@ -26,7 +26,6 @@ body{
     background-position: bottom;
     height:100vh;
     position: relative;
-    padding-top:160px;
 
 }
 
@@ -78,13 +77,15 @@ body{
 }
 
 #section-b{
-    padding:20px;
-    text-align: center;
-    background-color: #20345a;
-    color:#fff;
+    padding-top:50px;
+    
     
 }
 
 li{
     padding:7px;
+}
+
+.fa-microchip{
+    font-size:2rem;
 }
