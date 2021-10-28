@@ -1,0 +1,124 @@
+/* Generals and Fonts */
+
+*{
+    margin:0;
+    padding:0;
+    line-height: 1.0;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'humanist';
+    src: url('../fonts/humanist.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Drop Zone Styles */
+
+.drop-zone-input{
+    display: none;
+}
+
+.drop-zone--over{
+    border-style: dotted;
+}
+
+.file-container{
+    position:absolute;
+    right:0;
+    padding-right: 10px;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+
+/* Header Section */
+
+.header{
+    position: relative;
+    height:100px;
+    width:100%;
+    
+    background-color: white;
+}
+
+.header-left-container{
+    position: absolute;
+    left:5px;
+    top:5px;
+}
+
+.header-left-container p {
+    color:white;
+    font-family: 'humanist';
+    font-size: 33px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    
+    margin-right: 20px;
+}
+
+/* Assignment Button */
+
+.mid-container{
+    
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    cursor:pointer;
+ 
+}
+
+.mid-container p{
+    position: absolute;
+    font-family: 'humanist';
+    font-size: 33px;
+    color:#fff;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    padding-bottom: 30px;
+}
+
+/* Footer Section */
+
+.footer{
+   
+    position: relative;
+    height:100px;
+    margin-top: auto;
+}
+
+.footer-right-container{
+    position: absolute;
+    bottom:5px;
+    right:5px;
+}
+
+.footer-right-container p {
+    color:white;
+    font-family: 'humanist';
+    font-size: 33px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    margin-right: 20px;
+}
+
+
